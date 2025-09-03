@@ -1,0 +1,10 @@
+name = "fresh-air-duct-cleaning"
+compatibility_date = "2025-09-03"
+
+[env.production]
+routes = [
+  { pattern = "freshairductcleaning.com/*", zone_name = "freshairductcleaning.com" }
+]
+
+[[env.production.assets]]
+directory = "./dist"
