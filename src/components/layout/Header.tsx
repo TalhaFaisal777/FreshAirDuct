@@ -51,15 +51,20 @@ const Header = () => {
           {/* Phone & CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+1-800-FRESH-AIR"
+              href="tel:+15208428930"
               className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-semibold">1-800-FRESH-AIR</span>
+              <span className="font-semibold">(520) 842-8930</span>
             </a>
-            <Button size="lg" className="bg-accent-600 hover:bg-accent-700">
-              Get Free Quote
-            </Button>
+            <a
+              href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-accent-600 hover:bg-accent-700 text-white rounded-md px-6 py-2 text-lg font-medium transition-colors duration-200"
+            >
+              Get Quote on WhatsApp
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -98,15 +103,20 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t">
                 <a
-                  href="tel:+1-800-FRESH-AIR"
+                  href="tel:+15208428930"
                   className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors mb-4"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-semibold">1-800-FRESH-AIR</span>
+                  <span className="font-semibold">(520) 842-8930</span>
                 </a>
-                <Button size="lg" className="w-full bg-accent-600 hover:bg-accent-700">
-                  Get Free Quote
-                </Button>
+                <a
+                  href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-full bg-accent-600 hover:bg-accent-700 text-white rounded-md px-6 py-2 text-lg font-medium transition-colors duration-200"
+                >
+                  Get Quote on WhatsApp
+                </a>
               </div>
             </nav>
           </motion.div>

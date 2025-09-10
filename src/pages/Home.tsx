@@ -48,22 +48,58 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Sarah M.",
       location: "Dallas, TX",
       rating: 5,
-      comment: "Amazing service! The team was professional and thorough. Our air quality has improved dramatically."
+      comment: "We have 3 cats and the amount of pet hair they pulled out was shocking! My husband's allergies have improved so much since the cleaning. Dave the technician was very thorough and explained everything."
     },
     {
       name: "Mike Chen",
       location: "Los Angeles, CA", 
-      rating: 5,
-      comment: "Best decision we made for our home. The difference in air quality is night and day."
+      rating: 4,
+      comment: "Good service overall. Took a bit longer than expected (4 hours vs 2-3 they estimated) but they did a thorough job. Our energy bill went down about $40/month which is nice."
     },
     {
       name: "Jennifer Martinez",
       location: "Miami, FL",
       rating: 5,
-      comment: "Professional, punctual, and excellent results. Highly recommend Fresh Air Duct Cleaning."
+      comment: "Finally bit the bullet after noticing musty smells. SO glad we did! The before/after photos they showed us were disgusting but impressive. House smells fresh again."
+    },
+    {
+      name: "Robert K.",
+      location: "Phoenix, AZ",
+      rating: 4,
+      comment: "Had our 15-year-old home's ducts cleaned for the first time. The technician (I think his name was Carlos?) was professional and the equipment looked legit. Definitely noticed less dust on furniture."
+    },
+    {
+      name: "Lisa & Tom Bradley",
+      location: "Denver, CO",
+      rating: 5,
+      comment: "New baby on the way so wanted to make sure the air was clean. They found some construction debris from when our house was built! The crew was respectful and cleaned up nicely. Worth every penny."
+    },
+    {
+      name: "Dave Wilson",
+      location: "Atlanta, GA",
+      rating: 3,
+      comment: "They did the job as promised but communication could be better - had to call twice to confirm the appointment time. The actual cleaning was fine though and the guy was knowledgeable."
+    },
+    {
+      name: "Maria Santos",
+      location: "Houston, TX",
+      rating: 5,
+      comment: "Our AC wasn't cooling evenly and turns out the ducts were pretty clogged. After cleaning, the airflow is SO much better and the upstairs bedrooms actually stay cool now. Great work!"
+    },
+    {
+      name: "Jim Patterson",
+      location: "Orlando, FL",
+      rating: 4,
+      comment: "Good value for the price. The technician showed up on time and was very professional. Didn't try to upsell us on anything extra which I appreciated. House definitely feels cleaner."
+    },
+    {
+      name: "Amy L.",
+      location: "Seattle, WA",
+      rating: 4,
+      comment: "We bought an older home and the previous owners had dogs. The smell improvement was immediate! Only complaint is they tracked in a little mud, but they did clean it up when I mentioned it."
     }
   ];
 
@@ -118,18 +154,20 @@ const Home = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  className="gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift"
-                >
-                  Get Free Quote
-                </Button>
                 <a 
-                  href="tel:+1-800-FRESH-AIR"
+                  href="https://wa.me/15208428930?text=Hi, I'm interested in getting a quote for air duct cleaning services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift rounded-md text-white font-medium transition-all duration-200"
+                >
+                  Get Quote on WhatsApp
+                </a>
+                <a 
+                  href="tel:+15208428930"
                   className="flex items-center justify-center space-x-2 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all duration-200 rounded-md px-8 py-4 text-lg font-medium"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>1-800-FRESH-AIR</span>
+                  <span>(520) 842-8930</span>
                 </a>
               </div>
             </motion.div>
@@ -372,9 +410,14 @@ const Home = () => {
             </div>
             
             <div className="mt-8">
-              <Button size="lg" className="gradient-primary hover:opacity-90 border-0 hover-lift">
-                Find Service in Your Area
-              </Button>
+              <a 
+                href="https://wa.me/15208428930?text=Hi, I'm looking for air duct cleaning service in my area."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gradient-primary hover:opacity-90 border-0 hover-lift rounded-md text-white font-medium px-8 py-4 text-lg transition-all duration-200"
+              >
+                Find Service on WhatsApp
+              </a>
             </div>
           </motion.div>
         </div>
@@ -438,15 +481,20 @@ const Home = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift">
-                Get Free Quote Now
-              </Button>
               <a 
-                href="tel:+1-800-FRESH-AIR"
+                href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift rounded-md text-white font-medium transition-all duration-200"
+              >
+                Get Free Quote on WhatsApp
+              </a>
+              <a 
+                href="tel:+15208428930"
                 className="flex items-center justify-center space-x-2 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all duration-200 rounded-md px-8 py-4 text-lg font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>Call 1-800-FRESH-AIR</span>
+                <span>Call (520) 842-8930</span>
               </a>
             </div>
             

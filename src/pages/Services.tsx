@@ -139,15 +139,20 @@ const Services = () => {
               Comprehensive air duct cleaning solutions for residential and commercial properties nationwide
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-accent-600 hover:bg-accent-700">
-                Get Free Quote
-              </Button>
               <a 
-                href="tel:+1-800-FRESH-AIR"
+                href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-accent-600 hover:bg-accent-700 text-white rounded-md px-8 py-4 text-lg font-medium transition-colors duration-200"
+              >
+                Get Quote on WhatsApp
+              </a>
+              <a 
+                href="tel:+15208428930"
                 className="flex items-center justify-center space-x-2 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all duration-200 rounded-md px-8 py-4 text-lg font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>1-800-FRESH-AIR</span>
+                <span>(520) 842-8930</span>
               </a>
             </div>
           </motion.div>
@@ -289,7 +294,14 @@ const Services = () => {
                   <CardContent className="space-y-4">
                     <p className="text-gray-600">{service.description}</p>
                     <div className="text-2xl font-bold text-primary-600">{service.price}</div>
-                    <Button className="w-full">Schedule Service</Button>
+                    <a 
+                      href="https://wa.me/15208428930?text=Hi, I'd like to schedule your service."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center w-full bg-primary-600 hover:bg-primary-700 text-white rounded-md px-4 py-2 font-medium transition-colors duration-200"
+                    >
+                      Schedule on WhatsApp
+                    </a>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -395,15 +407,20 @@ const Services = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="bg-accent-600 hover:bg-accent-700 text-lg px-8 py-4">
-                Get Free Quote Now
-              </Button>
               <a 
-                href="tel:+1-800-FRESH-AIR"
+                href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services now."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-accent-600 hover:bg-accent-700 text-lg px-8 py-4 rounded-md text-white font-medium transition-colors duration-200"
+              >
+                Get Quote on WhatsApp
+              </a>
+              <a 
+                href="tel:+15208428930"
                 className="flex items-center justify-center space-x-2 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all duration-200 rounded-md px-8 py-4 text-lg font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>Call 1-800-FRESH-AIR</span>
+                <span>Call (520) 842-8930</span>
               </a>
             </div>
             

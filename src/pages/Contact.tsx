@@ -65,9 +65,9 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: "1-800-FRESH-AIR",
+      details: "(520) 842-8930",
       subtitle: "24/7 Customer Support",
-      action: "tel:+1-800-FRESH-AIR"
+      action: "tel:+15208428930"
     },
     {
       icon: <Mail className="w-6 h-6" />,
@@ -276,14 +276,14 @@ const Contact = () => {
                       />
                     </div>
 
-                    <Button
-                      type="submit"
-                      size="lg"
-                      disabled={isSubmitting}
-                      className="w-full bg-accent-600 hover:bg-accent-700"
+                    <a
+                      href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center w-full bg-accent-600 hover:bg-accent-700 text-white rounded-md px-6 py-3 text-lg font-medium transition-colors duration-200"
                     >
-                      {isSubmitting ? 'Submitting...' : 'Get Free Quote'}
-                    </Button>
+                      Get Quote on WhatsApp
+                    </a>
                   </form>
                 </CardContent>
               </Card>
@@ -436,19 +436,20 @@ const Contact = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:+1-800-FRESH-AIR"
+                href="tel:+15208428930"
                 className="inline-flex items-center justify-center space-x-2 bg-accent-600 hover:bg-accent-700 transition-colors rounded-md px-8 py-4 text-lg font-medium"
               >
                 <Phone className="w-5 h-5" />
-                <span>Call 1-800-FRESH-AIR</span>
+                <span>Call (520) 842-8930</span>
               </a>
-              <Button 
-                size="lg" 
-                className="bg-white bg-opacity-10 hover:bg-opacity-20 text-lg px-8 py-4"
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              <a 
+                href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-white bg-opacity-10 hover:bg-opacity-20 text-lg px-8 py-4 rounded-md text-white font-medium transition-all duration-200"
               >
-                Get Free Quote Above
-              </Button>
+                Get Quote on WhatsApp
+              </a>
             </div>
             
             <div className="mt-8 text-blue-100">
