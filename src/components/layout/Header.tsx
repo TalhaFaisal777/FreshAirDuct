@@ -57,7 +57,7 @@ const Header = () => {
               <span className="font-semibold">(520) 842-8930</span>
             </a>
             <a
-              href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+              href="https://wa.me/17542798161?text=Hi, I'd like to get a free quote for air duct cleaning services."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-accent-600 hover:bg-accent-700 text-white rounded-md px-6 py-2 text-lg font-medium transition-colors duration-200"
@@ -109,7 +109,7 @@ const Header = () => {
                   <span className="font-semibold">(520) 842-8930</span>
                 </a>
                 <a
-                  href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                  href="https://wa.me/17542798161?text=Hi, I'd like to get a free quote for air duct cleaning services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-accent-600 hover:bg-accent-700 text-white rounded-md px-6 py-2 text-lg font-medium transition-colors duration-200"

@@ -154,7 +154,7 @@ const Home = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://wa.me/15208428930?text=Hi, I'm interested in getting a quote for air duct cleaning services."
+                  href="https://wa.me/17542798161?text=Hi, I'm interested in getting a quote for air duct cleaning services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift rounded-md text-white font-medium transition-all duration-200"
@@ -410,7 +410,7 @@ const Home = () => {
             
             <div className="mt-8">
               <a 
-                href="https://wa.me/15208428930?text=Hi, I'm looking for air duct cleaning service in my area."
+                href="https://wa.me/17542798161?text=Hi, I'm looking for air duct cleaning service in my area."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gradient-primary hover:opacity-90 border-0 hover-lift rounded-md text-white font-medium px-8 py-4 text-lg transition-all duration-200"
@@ -481,7 +481,7 @@ const Home = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://wa.me/15208428930?text=Hi, I'd like to get a free quote for air duct cleaning services."
+                href="https://wa.me/17542798161?text=Hi, I'd like to get a free quote for air duct cleaning services."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gradient-accent hover:opacity-90 text-lg px-8 py-4 border-0 hover-lift rounded-md text-white font-medium transition-all duration-200"
